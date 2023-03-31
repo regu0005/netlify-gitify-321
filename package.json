@@ -1,0 +1,20 @@
+{
+  "name": "github-netlify",
+  "version": "1.0.0",
+  "description": "sample repo to demostrate using Netlify as part of the build deploy process",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist/* && mkdir ./dist/css && cp ./index.html ./dist/index.html && cp ./css/main.css ./dist/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regu0005/netlify-gitify-321.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regu0005/netlify-gitify-321/issues"
+  },
+  "homepage": "https://github.com/regu0005/netlify-gitify-321#readme"
+}
